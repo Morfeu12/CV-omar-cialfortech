@@ -1,0 +1,38 @@
+/* Tela 1920x1080 16:9 */
+@media (max-width:1920px) {
+    #home h1 {
+        font-size: 85pt;
+        padding-top: 15rem;
+    }
+    #home h2 {
+        margin-top: 0px;
+    }
+    #home p {
+        margin-top: 10%;
+        font-size: 22pt;
+        width: 60%;
+    }
+    #rede-social ul {
+        right: 16%;
+    }
+}
+
+/* Tela 1366x768 16:9 */
+@media (max-width:1366px) {
+    #home h1 {
+        font-size: 85pt;
+        padding-top: 8.2rem;
+    }
+    #home h2 {
+        font-size: 18pt;
+        margin-top: -15px;
+    }
+    #home p {
+        margin-top: 6%;
+        font-size: 18pt;
+        width: 55%;
+    }
+    #rede-social ul {
+        right: 2%;
+    }
+}

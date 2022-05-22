@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Profissional de tecnologia da informação.">
+    <meta name="keywords"
+        content="Consultor Sharepoint, Desenvolvedor Sharepoint, web designer, segurança da informação">
+    <meta name="author" content="Omar Junior Pereira da Costa">
+    <title>Omar Junior Pereira da Costa</title>
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- Uikit -->
+    <link rel="stylesheet" href="vendor/uikit-3.6.22/css/uikit.min.css">
+    <link rel="stylesheet" href="vendor/uikit-3.6.22/css/uikit-rtl.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+
+    <!-- Pessoal stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
+</head>
+
+<body>
+    <header>
+        <nav id="menu">
+            <img src="img/menu-degrade.png" />
+            <ul>
+                <li id="menu-item-1">
+                    <a href="#" onclick="itemMenu('#home')">Início</a>
+                </li>
+                <li id="menu-item-2">
+                    <a href="#" onclick="itemMenu('#carta')">Carta de Apresentação</a>
+                </li>
+                <li id="menu-item-3">
+                    <a href="#">Experiência</a>
+                </li>
+                <li id="menu-item-4">
+                    <a href="#">Portifólio</a>
+                </li>
+                <li id="menu-item-5">
+                    <a href="#">Perfil Piscicológico</a>
+                </li>
+                <li id="menu-item-6">
+                    <a href="#">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section id="home" class="item-principal">
+        <div class="uk-container uk-container-large">
+            <h1>OMAR JR. P.&nbsp;<span style="color:#0897BF;">Costa</span></h1>
+            <!--<h1>OMAR JR. P.&nbsp;<span style="color:#0897BF;" >COSTA</span></h1>-->
+            <h2><a href="mailto:omarcosta152@gmail.com">omarcosta152@gmail.com</a></h3>
+                <p>Há sempre um universo de possibilidades à se descobri para aqueles que nunca param de buscar o impossível</p>
+                <!--<p>O que não tem solução virando a página, terá solução mudando de livro. Basta não esperar pelo momento perfeito e sim fazer de cada momento a oportunidade perfeita.</p>-->
+        </div>
+
+        <div id="rede-social" class="uk-container uk-container-large">
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/omarcosta152" uk-icon="icon: linkedin; ratio: 5" target="_blank">
+                        <!--<img src="img/Rede social/Linkedin.png" alt="Linkedin logo Omar Costa" />
+                        <img src="img/Rede social/H-Linkedin.png" alt="Blue Linkedin logo Omar Costa" />-->
+                    </a>
+                </li>
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=5511971303021" uk-icon="icon: whatsapp; ratio: 2" target="_blank"></a>
+
+                </li>
+                <li>
+                    <a href="https://github.com/Morfeu12" uk-icon="icon: github-alt; ratio: 2" target="_blank"></a>
+                </li>
+                <li>
+                   <a href="https://www.instagram.com/0mar_costa/?hl=pt-br" uk-icon="icon: instagram; ratio: 2" target="_blank"></a>
+                </li>
+            </ul>
+        </div>
+
+
+    </section>
+    <section id="carta" class="item-principal hide-section">
+        asdsadasd
+        dasdasdas
+    </section>
+    <footer>
+        <img src="img/loading.gif"/>
+        <div class="uk-container uk-container-large">
+            <div id="itens-footer" class="uk-grid-collapse uk-child-width-expand@s uk-text-center" uk-grid>
+                <div class="contato-footer">
+                    <p><span><a href="mailto:omarcosta152@gmail.com">omarcosta152@gmail.com</a></span>
+                        <span><a href="tel:11971303021">+55 (11) 97130-3021</a></span>
+                        Carapicuíba / São Paulo
+                    </p>
+                </div>
+                <div>
+                    <p id="copyright">©Copyright
+                        <a href="https://www.linkedin.com/in/omarcosta152" target="_blank">Omar Costa</a>
+                        2021 All rights reserved
+                    </p>
+                </div>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/omarcosta152" uk-icon="icon: linkedin; ratio: 2" target="_blank"></a>
+                    <a href="https://api.whatsapp.com/send?phone=5511971303021" uk-icon="icon: whatsapp; ratio: 2" target="_blank"></a>
+                    <a href="https://github.com/Morfeu12" uk-icon="icon: github-alt; ratio: 2" target="_blank"></a>
+                    <a href="https://www.instagram.com/0mar_costa/?hl=pt-br" uk-icon="icon: instagram; ratio: 2" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="vendor/uikit-3.6.22/js/uikit.min.js"></script>
+    <script type="text/javascript" src="vendor/uikit-3.6.22/js/uikit-icons.min.js"></script>
+    <script type="text/javascript">
+
+        /* Função de evento de Scroll 
+        
+        var lastScrollTop = 0;
+        
+        // element should be replaced with the actual target element on which you have applied scroll, use window in case of no target element.
+        window.addEventListener("scroll", function(){ // or window.addEventListener("scroll"....
+           var st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
+           if (st > lastScrollTop){
+              // downscroll code
+              itemMenu('#carta');
+              console.log('down')
+              lastScrollTop = 0;
+           } else {
+              // upscroll code
+              console.log('up')
+              itemMenu('#home');
+              lastScrollTop = 0;
+           }
+           lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
+        }, false); */
+
+
+
+
+
+        function itemMenu(id) {
+
+            console.log('Entrou')
+            var els = document.querySelectorAll(".item-principal");
+            for (var x = 0; x < els.length; x++) {
+                els[x].classList.add("hide-section");
+                //els[x].style.display = 'none'
+            }
+
+
+
+            //document.querySelectorAll(".item-principal").style="display:none;"
+
+            //var displaystatus = document.querySelector(id).style
+            //displaystatus.display="block"
+            var displaystatus = document.querySelector(id)
+            displaystatus.classList.remove("hide-section");
+        }
+
+    </script>
+</body>
+
+</html>
